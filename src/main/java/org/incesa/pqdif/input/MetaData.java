@@ -1,12 +1,10 @@
 package org.incesa.pqdif.input;
 
-import org.springframework.web.multipart.MultipartFile;
-
 public class MetaData {
 
-  private int[] tagVersionInfo;
+  private String tagVersionInfo;
   private String tagFileName;
-  private String[] tagCreation;
+  private String tagCreation;
   private String tagSubject;
   private String tagAuthor;
   private String tagApplication;
@@ -17,12 +15,12 @@ public class MetaData {
   private String tagLanguage;
   private String tagOwner;
 
-  public int[] getTagVersionInfo() {
+  public String getTagVersionInfo() {
     return tagVersionInfo;
   }
 
-  public void setTagVersionInfo(int[] tagVersionInfo) {
-    this.tagVersionInfo = tagVersionInfo;
+  public void setTagVersionInfo(String tagVersionInfo2) {
+    this.tagVersionInfo = tagVersionInfo2;
   }
 
   public String getTagFileName() {
@@ -33,11 +31,11 @@ public class MetaData {
     this.tagFileName = tagFileName;
   }
 
-  public String[] getTagCreation() {
+  public String getTagCreation() {
     return tagCreation;
   }
 
-  public void setTagCreation(String[] tagCreation) {
+  public void setTagCreation(String tagCreation) {
     this.tagCreation = tagCreation;
   }
 

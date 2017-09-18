@@ -1,0 +1,11 @@
+org\incesa\sympqd\pqdif\ObservationRecord.class
+org\incesa\pqdif\services\FileService.class
+org\incesa\sympqd\pqdif\DateTime.class
+org\incesa\sympqd\pqdif\DataSourceRecord.class
+org\incesa\pqdif\models\CsvDataModel.class
+org\incesa\sympqd\pqdif\PqdifConstants.class
+org\incesa\pqdif\controllers\AppExceptionHandler.class
+org\incesa\pqdif\controllers\MainController.class
+org\incesa\pqdif\input\MetaData.class
+org\incesa\sympqd\pqdif\ContainerRecord.class
+org\incesa\sympqd\pqdif\Guid.class
